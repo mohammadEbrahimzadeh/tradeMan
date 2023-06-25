@@ -1,0 +1,26 @@
+.Blog {
+  h1 {
+    font-size: var(--fontXl);
+  }
+  .divCardBlog {
+    div {
+      background-color: rgba(54, 55, 94, 0.274);
+
+      a {
+        color: white;
+        text-decoration: none;
+        transition: 0.2s;
+        &:hover {
+          color: goldenrod;
+        }
+        h1 {
+          font-size: var(--fontSm);
+        }
+      }
+
+      p {
+        font-size: var(--fontSm);
+      }
+    }
+  }
+}

@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AACE,QADM,CACN,EAAE,CAAC;EACD,SAAS,EAAE,iBAAiB;CAC7B;;AAHH,AAIE,QAJM,CAIN,CAAC,CAAC;EACA,SAAS,EAAE,aAAa;CACzB",
+    "sources": [
+        "../Pages/TermsAndRules/TermsAndRules.scss"
+    ],
+    "names": [],
+    "file": "TermsAndRules.css"
+}

@@ -1,0 +1,12 @@
+.MiniDataNews {
+  position: relative;
+
+  h1 {
+    font-size: var(--fontMdBold);
+  }
+  .TickerTape {
+    div:nth-child(2) {
+      display: none;
+    }
+  }
+}

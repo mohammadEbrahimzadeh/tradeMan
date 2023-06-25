@@ -1,0 +1,33 @@
+.SiteFeatures {
+  h1 {
+    font-size: var(--fontXl);
+  }
+  p {
+    font-size: var(--fontSm);
+  }
+  .divTitle {
+    h1 {
+      &::after {
+        content: "";
+        display: block;
+        width: 50%;
+        margin: auto;
+        margin-top: 5%;
+        border-bottom: 2px solid goldenrod;
+      }
+    }
+  }
+  .divFeatures {
+    .right {
+      .iconFeatures {
+        font-size: 4.5vw;
+      }
+      h1 {
+        font-size: var(--fontMdBold);
+      }
+      p {
+        font-size: var(--fontSm);
+      }
+    }
+  }
+}

@@ -1,0 +1,580 @@
+@font-face {
+  font-family: lalezar;
+  src: url(/src/Fonts/Lalezar-Regular.ttf);
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  direction: rtl;
+  font-family: lalezar;
+}
+
+body {
+  background: linear-gradient(150deg, #1b1c31 32%, #0e334c 40%, #1b1c31 47%);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  direction: rtl;
+  min-width: 200px;
+  font-family: lalezar;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+  background-color: #1b1c31;
+  color: #1b1c31;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #545791;
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #9ea1cf;
+}
+
+@media only screen and (max-width: 600px) {
+  :root {
+    --fontSm: 3.5vw;
+    --fontMd: 3.75vw;
+    --fontMdBold: 4.25vw;
+    --fontXl: 7vw;
+  }
+}
+
+@media only screen and (min-width: 600px) {
+  :root {
+    --fontSm: 1.5vw;
+    --fontMd: 2vw;
+    --fontMdBold: 2.5vw;
+    --fontXl: 5vw;
+  }
+}
+
+.NavBar .rightnavBar .BigMenu li {
+  font-size: var(--fontSm);
+  transition: 0.3s;
+}
+
+.NavBar .rightnavBar .BigMenu li a {
+  text-decoration: none;
+  color: white;
+}
+
+.NavBar .rightnavBar .BigMenu li:hover {
+  transition: 0.5s;
+}
+
+.NavBar .rightnavBar .BigMenu li:hover a {
+  color: gold;
+}
+
+.NavBar .rightnavBar .BigMenu li:after {
+  display: block;
+  content: "";
+  margin-top: 20px;
+  border-bottom: solid 3px gold;
+  transform: scaleX(0);
+  transition: transform 400ms ease-in-out;
+}
+
+.NavBar .rightnavBar .BigMenu li:hover:after {
+  transform: scaleX(1);
+}
+
+.NavBar .rightnavBar .hambergerMenu {
+  position: relative;
+}
+
+.NavBar .rightnavBar .hambergerMenu button {
+  color: white;
+  border: none;
+  padding: 2vw;
+  font-size: var(--fontMd);
+  background-color: #2a2b49;
+}
+
+.NavBar .rightnavBar .hambergerMenu .divContentMenuHamberger {
+  position: absolute;
+  top: 120%;
+  width: 100%;
+  left: 200%;
+}
+
+.NavBar .rightnavBar .hambergerMenu .divContentMenuHamberger ul {
+  background-color: rgba(42, 43, 73, 0.855);
+  padding: 5vw;
+  width: 40vw;
+}
+
+.NavBar .rightnavBar .hambergerMenu .divContentMenuHamberger li {
+  font-size: var(--fontMd);
+  transition: 0.3s;
+}
+
+.NavBar .rightnavBar .hambergerMenu .divContentMenuHamberger li a {
+  text-decoration: none;
+  color: white;
+}
+
+.NavBar .rightnavBar .hambergerMenu .divContentMenuHamberger li:hover {
+  transition: 0.5s;
+}
+
+.NavBar .rightnavBar .hambergerMenu .divContentMenuHamberger li:hover a {
+  color: gold;
+}
+
+.NavBar .leftnavBar {
+  display: flex;
+  align-items: center;
+}
+
+.NavBar .leftnavBar li {
+  font-size: var(--fontSm);
+  transition: 0.3s;
+}
+
+.NavBar .leftnavBar li a {
+  text-decoration: none;
+  color: white;
+}
+
+.NavBar .leftnavBar li:hover {
+  transition: 0.5s;
+}
+
+.NavBar .leftnavBar li:hover a {
+  color: gold;
+}
+
+.NavBar .leftnavBar li select {
+  color: white;
+  background: transparent;
+  border: none;
+}
+
+.NavBar .leftnavBar li select option {
+  background-color: #1b1c31;
+  font-size: var(--fontSm);
+}
+
+.NavBar .leftnavBar li .iconNavBar {
+  font-size: var(--fontMd);
+  color: white;
+}
+
+.NavBar .leftnavBar li .iconNavBar:hover {
+  color: gold;
+}
+
+.Footer a {
+  color: white;
+  text-decoration: none;
+  font-size: var(--fontSm);
+}
+
+.Footer a:hover {
+  color: goldenrod;
+}
+
+.Footer span {
+  background-color: rgba(218, 165, 32, 0.669);
+  font-size: var(--fontSm);
+}
+
+.Footer h1 {
+  font-size: var(--fontMd);
+}
+
+.Footer .Privacy h1 {
+  font-size: var(--fontSm);
+}
+
+.Footer .Privacy .right a {
+  color: goldenrod;
+}
+
+.Footer .Privacy .right a:hover {
+  color: white;
+}
+
+.Footer .Owner h1 {
+  font-size: var(--fontSm);
+}
+
+.CurrencyTable {
+  white-space: nowrap;
+}
+
+.CurrencyTable .titleComponentTabale {
+  white-space: normal;
+  text-align: center;
+}
+
+.CurrencyTable .titleComponentTabale h1 {
+  font-size: var(--fontXl);
+}
+
+.CurrencyTable .titleComponentTabale p {
+  font-size: var(--fontMd);
+}
+
+.CurrencyTable .TableDIv iframe {
+  width: 100%;
+  height: 50vh;
+  overflow: scroll;
+}
+
+.CurrencyTable .TableDIv div div:nth-child(2) {
+  display: none;
+}
+
+.Header h1 {
+  font-size: var(--fontXl);
+}
+
+.Header p {
+  font-size: var(--fontMd);
+}
+
+.Header button {
+  font-size: var(--fontMd);
+}
+
+.Header button:hover {
+  background-color: rgba(0, 0, 0, 0.336);
+}
+
+.Header div h1 {
+  font-size: var(--fontXl);
+}
+
+.Header div #h1Pro {
+  font-size: var(--fontXl);
+  width: 0%;
+  overflow: hidden;
+  white-space: nowrap;
+  animation-name: h1Pro;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  animation-timing-function: ease-in;
+}
+
+@keyframes h1Pro {
+  from {
+    width: 0%;
+  }
+  to {
+    width: -moz-max-content;
+    width: 100%;
+    clear: left;
+  }
+}
+
+.Header div #spanPro {
+  border-right: 2px solid white;
+  animation: spanProAnimation 1s infinite;
+  visibility: hidden;
+}
+
+@keyframes spanProAnimation {
+  50% {
+    visibility: hidden;
+  }
+  51% {
+    visibility: visible;
+  }
+}
+
+.MiniDataNews {
+  position: relative;
+}
+
+.MiniDataNews h1 {
+  font-size: var(--fontMdBold);
+}
+
+.MiniDataNews .TickerTape div:nth-child(2) {
+  display: none;
+}
+
+.SiteFeatures h1 {
+  font-size: var(--fontXl);
+}
+
+.SiteFeatures p {
+  font-size: var(--fontSm);
+}
+
+.SiteFeatures .divTitle h1::after {
+  content: "";
+  display: block;
+  width: 50%;
+  margin: auto;
+  margin-top: 5%;
+  border-bottom: 2px solid goldenrod;
+}
+
+.SiteFeatures .divFeatures .right .iconFeatures {
+  font-size: 4.5vw;
+}
+
+.SiteFeatures .divFeatures .right h1 {
+  font-size: var(--fontMdBold);
+}
+
+.SiteFeatures .divFeatures .right p {
+  font-size: var(--fontSm);
+}
+
+.EveryWhere h1 {
+  font-size: var(--fontMdBold);
+}
+
+.EveryWhere p {
+  font-size: var(--fontSm);
+}
+
+.EveryWhere .divTitle h1 {
+  font-size: var(--fontXl);
+}
+
+.EveryWhere .divTitle h1::after {
+  content: "";
+  display: block;
+  width: 50%;
+  margin: auto;
+  margin-top: 5%;
+  border-bottom: 2px solid goldenrod;
+}
+
+.EveryWhere .iconEveryWhere {
+  font-size: 4.5vw;
+}
+
+.AboutPlatform h1 {
+  font-size: var(--fontMdBold);
+}
+
+.AboutPlatform p {
+  font-size: var(--fontSm);
+}
+
+.AboutPlatform .divTitle h1 {
+  font-size: var(--fontXl);
+}
+
+.AboutPlatform .divTitle h1::after {
+  content: "";
+  display: block;
+  width: 50%;
+  margin: auto;
+  margin-top: 5%;
+  border-bottom: 2px solid goldenrod;
+}
+
+.AboutPlatform .iconEveryWhere {
+  font-size: 10vw;
+}
+
+.Blog h1 {
+  font-size: var(--fontXl);
+}
+
+.Blog .divCardBlog div {
+  background-color: rgba(54, 55, 94, 0.274);
+}
+
+.Blog .divCardBlog div a {
+  color: white;
+  text-decoration: none;
+  transition: 0.2s;
+}
+
+.Blog .divCardBlog div a:hover {
+  color: goldenrod;
+}
+
+.Blog .divCardBlog div a h1 {
+  font-size: var(--fontSm);
+}
+
+.Blog .divCardBlog div p {
+  font-size: var(--fontSm);
+}
+
+.SideBar {
+  border-left: 1px solid rgba(255, 255, 255, 0.331);
+  border-top: 1px solid rgba(255, 255, 255, 0.545);
+  background-color: #171727;
+}
+
+.SideBar .mainDivSideBar {
+  height: 100%;
+}
+
+.SideBar .mainDivSideBar ul li .divItemLi a {
+  color: white;
+  text-decoration: none;
+  padding: 1vw;
+  transition: 0.3s;
+  font-size: var(--fontMd);
+}
+
+.SideBar .mainDivSideBar ul li .divItemLi a:hover {
+  background-color: darkgoldenrod;
+}
+
+.SideBar .mainDivSideBar ul li button {
+  width: 100%;
+  height: 100%;
+  border: none;
+  background: none;
+  font-size: var(--fontMd);
+  transition: 0.3s;
+  color: white;
+}
+
+.SideBar .mainDivSideBar ul li button:hover {
+  background-color: goldenrod;
+}
+
+.CurrencyExchange a,
+.CurrencyExchange p,
+.CurrencyExchange h1 {
+  font-size: var(--fontSm);
+  text-align: center;
+  text-decoration: none;
+}
+
+.CurrencyExchange .iframeTagx div:nth-child(2) {
+  display: none;
+}
+
+.CurrencyExchange .TechnicalAnalysis iframe {
+  overflow: hidden;
+  min-height: 70vh;
+  min-width: 100%;
+}
+
+@media only screen and (max-width: 700px) {
+  .CurrencyExchange .TechnicalAnalysis iframe {
+    overflow: hidden;
+    min-height: 50vh;
+    min-width: 100%;
+  }
+}
+
+.LOGIN h1 {
+  font-size: var(--fontMdBold);
+}
+
+.LOGIN .divForm {
+  background-color: rgba(27, 28, 49, 0.641);
+}
+
+.LOGIN .divForm form .inputText {
+  width: 75%;
+  border: none;
+  color: white;
+  font-size: var(--fontSm);
+  background-color: #545791;
+}
+
+.LOGIN .divForm form .inputText::before {
+  content: "c";
+  background-color: red;
+}
+
+.LOGIN .divForm form .inputText:focus {
+  outline: none;
+}
+
+.LOGIN .divForm form .inputText::placeholder {
+  color: white;
+}
+
+.LOGIN .divForm form .iconInput {
+  font-size: var(--fontSm);
+}
+
+.LOGIN .divForm form .submitLogin {
+  background-color: #1b2397;
+  color: white;
+  border: none;
+  width: 40%;
+  font-size: var(--fontSm);
+}
+
+.NotFound h1 {
+  font-size: var(--fontMdBold);
+}
+
+.NotFound p {
+  font-size: var(--fontMd);
+}
+
+.NotFound .divForm {
+  background-color: rgba(27, 28, 49, 0.641);
+}
+
+.NotFound .divForm form .inputText {
+  width: 75%;
+  border: none;
+  color: white;
+  font-size: var(--fontSm);
+  background-color: #545791;
+}
+
+.NotFound .divForm form .inputText::before {
+  content: "c";
+  background-color: red;
+}
+
+.NotFound .divForm form .inputText:focus {
+  outline: none;
+}
+
+.NotFound .divForm form .inputText::placeholder {
+  color: white;
+}
+
+.NotFound .divForm form .iconInput {
+  font-size: var(--fontSm);
+}
+
+.NotFound .divForm form .submitLogin {
+  background-color: #1b2397;
+  color: white;
+  border: none;
+  width: 40%;
+  font-size: var(--fontSm);
+}
+
+.AboutUs h1 {
+  font-size: var(--fontMdBold);
+}
+
+.AboutUs p {
+  font-size: var(--fontMd);
+}
+
+.TermsAndRules h1 {
+  font-size: var(--fontMdBold);
+}
+
+.TermsAndRules p {
+  font-size: var(--fontMd);
+}
+
+.Privacy h1 {
+  font-size: var(--fontMdBold);
+}
+
+.Privacy p {
+  font-size: var(--fontMd);
+}
+/*# sourceMappingURL=base.css.map */

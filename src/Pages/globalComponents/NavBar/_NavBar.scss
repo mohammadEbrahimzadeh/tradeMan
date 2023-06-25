@@ -1,0 +1,106 @@
+.NavBar {
+  .rightnavBar {
+    .BigMenu {
+      li {
+        font-size: var(--fontSm);
+        transition: 0.3s;
+
+        a {
+          text-decoration: none;
+          color: white;
+        }
+        &:hover {
+          a {
+            color: gold;
+          }
+          transition: 0.5s;
+        }
+        &:after {
+          display: block;
+          content: "";
+          margin-top: 20px;
+          border-bottom: solid 3px gold;
+          transform: scaleX(0);
+          transition: transform 400ms ease-in-out;
+        }
+        &:hover:after {
+          transform: scaleX(1);
+        }
+      }
+    }
+    .hambergerMenu {
+      position: relative;
+      button {
+        color: white;
+        border: none;
+        padding: 2vw;
+        font-size: var(--fontMd);
+        background-color: rgb(42, 43, 73);
+      }
+      .divContentMenuHamberger {
+        position: absolute;
+        top: 120%;
+        width: 100%;
+        left: 200%;
+        ul {
+          background-color: rgba(42, 43, 73, 0.855);
+          padding: 5vw;
+
+          width: 40vw;
+        }
+        li {
+          font-size: var(--fontMd);
+          transition: 0.3s;
+
+          a {
+            text-decoration: none;
+            color: white;
+          }
+          &:hover {
+            a {
+              color: gold;
+            }
+            transition: 0.5s;
+          }
+        }
+      }
+    }
+  }
+  .leftnavBar {
+    display: flex;
+    align-items: center;
+
+    li {
+      font-size: var(--fontSm);
+      transition: 0.3s;
+
+      a {
+        text-decoration: none;
+        color: white;
+      }
+      &:hover {
+        a {
+          color: gold;
+        }
+        transition: 0.5s;
+      }
+
+      select {
+        color: white;
+        background: transparent;
+        border: none;
+        option {
+          background-color: rgba(27, 28, 49, 1);
+          font-size: var(--fontSm);
+        }
+      }
+      .iconNavBar {
+        font-size: var(--fontMd);
+        color: white;
+        &:hover {
+          color: gold;
+        }
+      }
+    }
+  }
+}

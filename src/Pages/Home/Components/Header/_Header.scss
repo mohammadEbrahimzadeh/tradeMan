@@ -1,0 +1,78 @@
+.Header {
+  h1 {
+    font-size: var(--fontXl);
+  }
+  p {
+    font-size: var(--fontMd);
+  }
+  button {
+    font-size: var(--fontMd);
+    &:hover {
+      background-color: rgba(0, 0, 0, 0.336);
+    }
+  }
+  div {
+    h1 {
+      font-size: var(--fontXl);
+    }
+    #h1Pro {
+      font-size: var(--fontXl);
+      width: 0%;
+      overflow: hidden;
+      white-space: nowrap;
+      -webkit-animation-name: h1Pro;
+      animation-name: h1Pro;
+      -webkit-animation-duration: 3s;
+      animation-duration: 3s;
+      -webkit-animation-iteration-count: infinite;
+      animation-iteration-count: infinite;
+      -webkit-animation-direction: alternate;
+      animation-direction: alternate;
+      -webkit-animation-timing-function: ease-out;
+      animation-timing-function: ease-in;
+
+      @-webkit-keyframes h1Pro {
+        0% {
+          width: 0%;
+        }
+        100% {
+          width: 50%;
+        }
+      }
+      @keyframes h1Pro {
+        from {
+          width: 0%;
+        }
+        to {
+          width: -webkit-max-content;
+          width: -moz-max-content;
+          width: 100%;
+          clear: left;
+        }
+      }
+    }
+    #spanPro {
+      border-right: 2px solid white;
+      -webkit-animation: spanProAnimation 1s infinite;
+      animation: spanProAnimation 1s infinite;
+      visibility: hidden;
+
+      @-webkit-keyframes spanProAnimation {
+        50% {
+          visibility: hidden;
+        }
+        51% {
+          visibility: visible;
+        }
+      }
+      @keyframes spanProAnimation {
+        50% {
+          visibility: hidden;
+        }
+        51% {
+          visibility: visible;
+        }
+      }
+    }
+  }
+}

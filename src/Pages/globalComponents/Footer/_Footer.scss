@@ -1,0 +1,35 @@
+.Footer {
+  a {
+    color: white;
+    text-decoration: none;
+    font-size: var(--fontSm);
+    &:hover {
+      color: goldenrod;
+    }
+  }
+  span {
+    background-color: rgba(218, 165, 32, 0.669);
+    font-size: var(--fontSm);
+  }
+  h1 {
+    font-size: var(--fontMd);
+  }
+  .Privacy {
+    h1 {
+      font-size: var(--fontSm);
+    }
+    .right {
+      a {
+        color: goldenrod;
+        &:hover {
+          color: white;
+        }
+      }
+    }
+  }
+  .Owner {
+    h1 {
+      font-size: var(--fontSm);
+    }
+  }
+}

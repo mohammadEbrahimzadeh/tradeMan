@@ -1,0 +1,24 @@
+.EveryWhere {
+  h1 {
+    font-size: var(--fontMdBold);
+  }
+  p {
+    font-size: var(--fontSm);
+  }
+  .divTitle {
+    h1 {
+      font-size: var(--fontXl);
+      &::after {
+        content: "";
+        display: block;
+        width: 50%;
+        margin: auto;
+        margin-top: 5%;
+        border-bottom: 2px solid goldenrod;
+      }
+    }
+  }
+  .iconEveryWhere {
+    font-size: 4.5vw;
+  }
+}

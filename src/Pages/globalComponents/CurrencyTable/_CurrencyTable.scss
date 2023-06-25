@@ -1,0 +1,29 @@
+.CurrencyTable {
+  white-space: nowrap;
+
+  .titleComponentTabale {
+    white-space: normal;
+    text-align: center;
+
+    h1 {
+      font-size: var(--fontXl);
+    }
+    p {
+      font-size: var(--fontMd);
+    }
+  }
+  .TableDIv {
+    iframe {
+      width: 100%;
+      height: 50vh;
+      overflow: scroll;
+    }
+    // &::-webkit-scrollbar {
+    // }
+    div {
+      div:nth-child(2) {
+        display: none;
+      }
+    }
+  }
+}

@@ -1,0 +1,52 @@
+.NotFound {
+  h1 {
+    font-size: var(--fontMdBold);
+  }
+  p {
+    font-size: var(--fontMd);
+  }
+  .divForm {
+    background-color: rgba(27, 28, 49, 0.641);
+    form {
+      .inputText {
+        width: 75%;
+        border: none;
+        color: white;
+        font-size: var(--fontSm);
+        &::before {
+          content: "c";
+          background-color: red;
+        }
+        &:focus {
+          outline: none;
+        }
+        background-color: rgb(84, 87, 145);
+        &::-webkit-input-placeholder {
+          color: white;
+        }
+        &::-moz-placeholder {
+          color: white;
+        }
+        &:-ms-input-placeholder {
+          color: white;
+        }
+        &::-ms-input-placeholder {
+          color: white;
+        }
+        &::placeholder {
+          color: white;
+        }
+      }
+      .iconInput {
+        font-size: var(--fontSm);
+      }
+      .submitLogin {
+        background-color: rgb(27, 35, 151);
+        color: white;
+        border: none;
+        width: 40%;
+        font-size: var(--fontSm);
+      }
+    }
+  }
+}

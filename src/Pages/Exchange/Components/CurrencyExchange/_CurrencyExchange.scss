@@ -1,0 +1,35 @@
+.CurrencyExchange {
+  a,
+  p,
+  h1 {
+    font-size: var(--fontSm);
+    text-align: center;
+    text-decoration: none;
+  }
+
+  .iframeTagx {
+    div {
+      &:nth-child(2) {
+        display: none;
+      }
+    }
+  }
+  .TechnicalAnalysis {
+    iframe {
+      overflow: hidden;
+      min-height: 70vh;
+      min-width: 100%;
+    }
+  }
+}
+@media only screen and (max-width: 700px) {
+  .CurrencyExchange {
+    .TechnicalAnalysis {
+      iframe {
+        overflow: hidden;
+        min-height: 50vh;
+        min-width: 100%;
+      }
+    }
+  }
+}

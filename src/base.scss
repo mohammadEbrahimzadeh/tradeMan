@@ -1,0 +1,61 @@
+@font-face {
+  font-family: lalezar;
+  src: url(/src/Fonts/Lalezar-Regular.ttf);
+}
+* {
+  padding: 0;
+  margin: 0;
+  direction: rtl;
+  font-family: lalezar;
+}
+body {
+  background: linear-gradient(
+    150deg,
+    rgba(27, 28, 49, 1) 32%,
+    rgba(14, 51, 76, 1) 40%,
+    rgba(27, 28, 49, 1) 47%
+  );
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  direction: rtl;
+  min-width: 200px;
+  font-family: lalezar;
+}
+::-webkit-scrollbar {
+  width: 10px;
+  background-color: rgba(27, 28, 49, 1);
+  color: rgba(27, 28, 49, 1);
+}
+::-webkit-scrollbar-thumb {
+  background: rgb(84, 87, 145);
+  border-radius: 10px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: rgb(158, 161, 207);
+}
+
+@media only screen and (max-width: 600px) {
+  // @include fontSizeRespons($fontSm: 10px, $fontMd: 100px, $fontXl: 200px);
+  :root {
+    --fontSm: 3.5vw;
+    --fontMd: 3.75vw;
+    --fontMdBold: 4.25vw;
+    --fontXl: 7vw;
+  }
+}
+@media only screen and (min-width: 600px) {
+  :root {
+    --fontSm: 1.5vw;
+    --fontMd: 2vw;
+    --fontMdBold: 2.5vw;
+    --fontXl: 5vw;
+  }
+}
+@import "Pages/globalComponents/_globalComponents";
+@import "Pages/Home/_Home";
+@import "Pages/Exchange/_Exchange";
+@import "Pages/LOGIN/_LOGIN";
+@import "Pages/NotFound/_NotFound";
+@import "Pages/AboutUs/_AboutUs";
+@import "Pages/TermsAndRules/_TermsAndRules";
+@import "Pages/Privacy/_Privacy";
