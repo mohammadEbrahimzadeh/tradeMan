@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/tradeMan/static/css/main.5b69bfce.css",
-    "main.js": "/tradeMan/static/js/main.20b21f0f.js",
+    "main.js": "/tradeMan/static/js/main.ac5ecde2.js",
     "static/media/postfeaturedimage.jpg": "/tradeMan/static/media/postfeaturedimage.b52c45b9562e918840b5.jpg",
     "static/media/postfeaturedimage3.jpg": "/tradeMan/static/media/postfeaturedimage3.32b1b265e248bb2a8bef.jpg",
     "static/media/postfeaturedimage2.jpg": "/tradeMan/static/media/postfeaturedimage2.2aa65df4ef8c6a5f04b0.jpg",
@@ -10,10 +10,10 @@
     "static/media/logo.png": "/tradeMan/static/media/logo.0cd508082205b3594044.png",
     "index.html": "/tradeMan/index.html",
     "main.5b69bfce.css.map": "/tradeMan/static/css/main.5b69bfce.css.map",
-    "main.20b21f0f.js.map": "/tradeMan/static/js/main.20b21f0f.js.map"
+    "main.ac5ecde2.js.map": "/tradeMan/static/js/main.ac5ecde2.js.map"
   },
   "entrypoints": [
     "static/css/main.5b69bfce.css",
-    "static/js/main.20b21f0f.js"
+    "static/js/main.ac5ecde2.js"
   ]
 }
