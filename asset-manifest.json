@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/mohammadEbrahimzadeh/tradeMan/static/css/main.ebfa7c67.css",
-    "main.js": "/mohammadEbrahimzadeh/tradeMan/static/js/main.23c3f99d.js",
-    "static/media/postfeaturedimage.jpg": "/mohammadEbrahimzadeh/tradeMan/static/media/postfeaturedimage.b52c45b9562e918840b5.jpg",
-    "static/media/postfeaturedimage3.jpg": "/mohammadEbrahimzadeh/tradeMan/static/media/postfeaturedimage3.32b1b265e248bb2a8bef.jpg",
-    "static/media/postfeaturedimage2.jpg": "/mohammadEbrahimzadeh/tradeMan/static/media/postfeaturedimage2.2aa65df4ef8c6a5f04b0.jpg",
-    "static/media/Lalezar-Regular.ttf": "/mohammadEbrahimzadeh/tradeMan/static/media/Lalezar-Regular.241ca811c53de4ed36a4.ttf",
-    "static/media/portfoilo.jpg": "/mohammadEbrahimzadeh/tradeMan/static/media/portfoilo.7aff94bdc31117228778.jpg",
-    "static/media/logo.png": "/mohammadEbrahimzadeh/tradeMan/static/media/logo.0cd508082205b3594044.png",
-    "index.html": "/mohammadEbrahimzadeh/tradeMan/index.html",
-    "main.ebfa7c67.css.map": "/mohammadEbrahimzadeh/tradeMan/static/css/main.ebfa7c67.css.map",
-    "main.23c3f99d.js.map": "/mohammadEbrahimzadeh/tradeMan/static/js/main.23c3f99d.js.map"
+    "main.css": "/tradeMan/static/css/main.5b69bfce.css",
+    "main.js": "/tradeMan/static/js/main.20b21f0f.js",
+    "static/media/postfeaturedimage.jpg": "/tradeMan/static/media/postfeaturedimage.b52c45b9562e918840b5.jpg",
+    "static/media/postfeaturedimage3.jpg": "/tradeMan/static/media/postfeaturedimage3.32b1b265e248bb2a8bef.jpg",
+    "static/media/postfeaturedimage2.jpg": "/tradeMan/static/media/postfeaturedimage2.2aa65df4ef8c6a5f04b0.jpg",
+    "static/media/Lalezar-Regular.ttf": "/tradeMan/static/media/Lalezar-Regular.241ca811c53de4ed36a4.ttf",
+    "static/media/portfoilo.jpg": "/tradeMan/static/media/portfoilo.7aff94bdc31117228778.jpg",
+    "static/media/logo.png": "/tradeMan/static/media/logo.0cd508082205b3594044.png",
+    "index.html": "/tradeMan/index.html",
+    "main.5b69bfce.css.map": "/tradeMan/static/css/main.5b69bfce.css.map",
+    "main.20b21f0f.js.map": "/tradeMan/static/js/main.20b21f0f.js.map"
   },
   "entrypoints": [
-    "static/css/main.ebfa7c67.css",
-    "static/js/main.23c3f99d.js"
+    "static/css/main.5b69bfce.css",
+    "static/js/main.20b21f0f.js"
   ]
 }
