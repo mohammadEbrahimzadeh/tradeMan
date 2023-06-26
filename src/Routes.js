@@ -7,7 +7,7 @@ import AboutUs from "./Pages/AboutUs/AboutUs";
 import TermsAndRules from "./Pages/TermsAndRules/TermsAndRules";
 import Privacy from "./Pages/Privacy/Privacy";
 const Routes = [
-  { path: "/tradeMan", element: <Home /> },
+  { path: "/", element: <Home /> },
   { path: "/home", element: <Home /> },
 
   {
